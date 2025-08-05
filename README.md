@@ -120,6 +120,7 @@ python utils/beat_align_score.py
 ## Acknowledgement
 
 This work is built on many amazing research works and open-source projects, thanks a lot to all the authors for sharing!
+
 Our code logic structure is consistent with Bailando, which means you can easily conduct research based on Danceba.
 
 - [Bailando](https://github.com/lisiyao21/Bailando)
