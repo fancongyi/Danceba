@@ -11,7 +11,7 @@
 [![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://danceba.github.io/)
 </h5>
 
-The code is currently being organized and will be released once the preparation is complete.
+
 
 ![Danceba](assets/pipeline1.png "Pipeline")
 
