@@ -12,9 +12,9 @@ class LinearPhaseEmbedding_1(nn.Module):
         self.hop_length = hop_length
         self.seq_len = seq_len
 
-        self.linear1 = nn.LazyLinear(hidden_dim)
+        # self.linear1 = nn.LazyLinear(hidden_dim)
         self.linear2 = nn.LazyLinear(hidden_dim)
-        self.bn1 = nn.BatchNorm1d(hidden_dim)
+        # self.bn1 = nn.BatchNorm1d(hidden_dim)
         self.bn2 = nn.BatchNorm1d(hidden_dim)
 
     def forward(self, waveform):
