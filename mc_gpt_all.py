@@ -262,7 +262,7 @@ class MCTall():
             self.device = torch.device('cuda' if config.cuda else 'cpu')
             print("Evaluation...")
             checkpoint = torch.load(ckpt_path)
-            gpt.load_state_dict(checkpoint['model'])
+            gpt.load_state_dict(checkpoint['model'], strict=False)
             gpt.eval()
 
             results = []
