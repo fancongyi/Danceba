@@ -89,7 +89,7 @@ Our models are all trained with single NVIDIA 3090 GPU.
 
 ```
 # If training, modify configs/cc_motion_gpt.yaml line:20 need_not_train_data: true -> false
-sh srun_gpt_all.sh configs/cc_motion_gpt.yaml train 1
+CUDA_VISIBLE_DEVICES=0 sh srun_gpt_all.sh configs/cc_motion_gpt.yaml train 1
 ```
 
 ## Evaluation
