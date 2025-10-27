@@ -26,8 +26,9 @@ conda install -c nvidia cuda-nvcc=11.8.89
 pip install torch==2.1.1+cu118 torchvision==0.16.1+cu118 torchaudio==2.1.1+cu118 --index-url https://download.pytorch.org/whl/cu118
 conda install cudatoolkit=11.8
 pip install xformers==0.0.23
-pip install numpy==1.26
 pip install scipy opencv-python timm easydict smplx
+pip install numpy==1.26
+pip install transformers==4.37
 ```
 
 ### Mamba Environment
