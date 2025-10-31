@@ -31,6 +31,14 @@ pip install numpy==1.26
 pip install transformers==4.37
 ```
 
+**docker**
+download-link: https://pan.baidu.com/s/1uP5y-bkcyxaqugnDytt9RQ?pwd=1024
+
+```
+docker load -i <filename>.tar
+docker save -o /path/to/directory/<filename>.tar filename:latest
+```
+
 ### Mamba Environment
 ```
 wget https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.1.3.post1/causal_conv1d-1.1.3.post1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
