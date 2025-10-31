@@ -45,7 +45,7 @@ download-link: https://pan.baidu.com/s/1uP5y-bkcyxaqugnDytt9RQ?pwd=1024
 
 ```
 docker load -i <filename>.tar
-docker save -o /path/to/directory/<filename>.tar filename:latest
+docker save -o /path/to/directory/<filename>.tar <filename>:latest
 ```
 
 ## Data preparation
