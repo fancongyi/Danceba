@@ -44,8 +44,10 @@ pip install mamba_ssm-1.1.1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.
 download-link: https://pan.baidu.com/s/1uP5y-bkcyxaqugnDytt9RQ?pwd=1024
 
 ```
-docker load -i <filename>.tar
-docker save -o /path/to/directory/<filename>.tar <filename>:latest
+docker load -i danceba.tar
+docker save -o /path/to/directory/danceba.tar danceba:latest
+docker images
+docker run -i danceba:latest /bin/bash
 ```
 
 ## Data preparation
