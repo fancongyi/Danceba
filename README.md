@@ -40,16 +40,6 @@ pip install causal_conv1d-1.1.3.post1+cu118torch2.1cxx11abiFALSE-cp310-cp310-lin
 pip install mamba_ssm-1.1.1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
 ```
 
-### Docker
-
-download-link: 
-
-```
-docker load -i danceba.tar
-docker save -o /path/to/directory/danceba.tar danceba:latest
-docker images
-docker run -i danceba:latest /bin/bash
-```
 
 
 
