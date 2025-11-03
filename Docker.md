@@ -6,7 +6,6 @@ download-link:
 
 ```
 docker load -i danceba.tar
-docker save -o /path/to/directory/danceba.tar danceba:latest
 docker images
 docker run -i danceba:latest /bin/bash
 ```
