@@ -2,7 +2,7 @@
 
 ### Docker
 
-download-link: 
+**download-link**: 
 
 ```
 docker load -i danceba.tar
@@ -23,7 +23,4 @@ conda activate danceba
 # ImportError: libGL.so.1: cannot open shared object file: No such file or directory
 pip install opencv-python-headless
 pip install numpy==1.26
-
-
-
 ```
