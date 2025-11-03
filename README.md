@@ -30,6 +30,7 @@ pip install scipy opencv-python timm easydict smplx
 pip install numpy==1.26
 pip install transformers==4.37
 pip install einops
+pip install matplotlib
 ```
 
 ### Mamba Environment
