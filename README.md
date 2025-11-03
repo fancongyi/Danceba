@@ -29,6 +29,7 @@ pip install xformers==0.0.23
 pip install scipy opencv-python timm easydict smplx
 pip install numpy==1.26
 pip install transformers==4.37
+pip install einops
 ```
 
 ### Mamba Environment
@@ -49,6 +50,8 @@ docker save -o /path/to/directory/danceba.tar danceba:latest
 docker images
 docker run -i danceba:latest /bin/bash
 ```
+
+
 
 ## Data preparation
 
