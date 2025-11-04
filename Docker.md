@@ -8,6 +8,9 @@
 docker load -i danceba.tar
 docker images
 docker run -i danceba:latest /bin/bash
+
+conda deactivate # exit the base encironment
+conda activate danceba
 ```
 
 
